@@ -9,6 +9,12 @@
   "story": ".ant-select-selector",
   "create": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
-  "storyType": ".ant-select-item-option"
+  "storyType": ".ant-select-item-option",
+  "NamePlaceholder": ".ant-input",
+  "AgePlaceholder": ".ant-input-number-input",
+  "StoryPlaceholder": ".ant-select",
+  "HeRadioButton": ".ant-radio-input[0]",
+  "tryAgain": ".btn-primary"
+
 
 }

@@ -35,7 +35,13 @@ describe('My Little Hero', function () {
             expect(label).toEqual(true);
         });
 
+        /*it('TC-006 Label for image', function () {
+            const label = $$(sel.label)[3].isDisplayed();
+            expect(label).toEqual(true);
+        }); */
+
     });
+
     describe('labels are correct', function () {
 
         it('TC-006 Label for name = 1. What is your Hero\'s name?', function () {
@@ -56,6 +62,8 @@ describe('My Little Hero', function () {
         it('TC-009 Label for story = 4. What type of story would you like to read?', function () {
             const text = $$(sel.label)[3].getAttribute('title');
             expect(text).toEqual(exp.labelStory);
+
         });
+
     });
 });
